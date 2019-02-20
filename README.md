@@ -19,3 +19,17 @@ cd my-app
 vue add fontawesome
 ```
 
+## Usage
+
+This is quick vue-cli 3 plugin for adding FontAwesome capability to a cli scaffolded application.  It is a using the FontAwesome 5 vue-fontawesome component. 
+
+Icon display example:
+```
+<font-awesome-icon icon="user-secret"></font-awesome-icon>
+```
+
+By default, this plugin adds all available free icons to the bundle process.  Full list available at:
+https://fontawesome.com/icons?d=gallery&m=free
+
+More detailed usage instructions can be obtained from that component's ReadMe section: 
+https://github.com/FortAwesome/vue-fontawesome#usage
