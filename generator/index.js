@@ -4,9 +4,9 @@ module.exports = (api, opts, rootOpts) => {
     // Add plugin dependencies to package.json
     api.extendPackage({
       dependencies: {
-        '@fortawesome/fontawesome-svg-core': '^1.2.6',
-        '@fortawesome/free-solid-svg-icons': '^5.4.1',
-        '@fortawesome/vue-fontawesome': '^0.1.1'
+        '@fortawesome/fontawesome-svg-core': '^1.2.15',
+        '@fortawesome/free-solid-svg-icons': '^5.7.2',
+        '@fortawesome/vue-fontawesome': '^0.1.5'
       }
     })
 
